@@ -1,4 +1,4 @@
-package ru.taranov.fraud;
+package ru.taranov.clients.fraud;
 
 public record FraudCheckResponse(Boolean isFraudster) {
 }
