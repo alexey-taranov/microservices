@@ -2,6 +2,7 @@ package ru.taranov.customer;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 import ru.taranov.clients.fraud.FraudCheckResponse;
 import ru.taranov.clients.fraud.FraudClient;
 import ru.taranov.clients.notification.NotificationClient;
